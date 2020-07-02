@@ -6,7 +6,7 @@ const media = {
 
 export const ContentWrap = styled.div`
   width: 100%;
-  border: 1px solid green;
+  // border: 1px solid green;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -26,7 +26,7 @@ export const ContentWrap = styled.div`
 
   .boxWrap {
     width: 90%;
-    border: 1px solid blue;
+    // border: 1px solid blue;
     
     ${media.desktop} {
       display: flex;
@@ -36,9 +36,10 @@ export const ContentWrap = styled.div`
     }
 
     .img {
-      width: 100%;
-      height: 150px;
-      background-color: gray;
+      width: 30vw;
+      // padding: 5px;
+      // height: 50vw;
+      // background-color: gray;
 
       ${media.desktop} {
         width: 48%;
@@ -47,13 +48,18 @@ export const ContentWrap = styled.div`
 
     .cont {
       margin-top: 10px;
-      width: 100%;
-      height: 150px;
-      background-color: gray;
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-left: 3%;
+      padding-right: 3%;
+      width: 80%;
+      // height: 150px;
+      // background-color: gray;
 
       ${media.desktop} {
         margin: 0;
         width: 48%;
+        padding: 10%;
       }
     }
   }
